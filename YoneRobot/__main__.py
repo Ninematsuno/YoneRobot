@@ -232,8 +232,8 @@ def start(update: Update, context: CallbackContext):
 
         else:
             update.effective_message.reply_text(
-                PM_START_TEXT,
-                escape_markdown(uptime),
+                PM_START_TEXT.format(
+                escape_markdown(uptime)),
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
