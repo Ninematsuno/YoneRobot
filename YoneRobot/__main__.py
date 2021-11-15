@@ -106,7 +106,8 @@ Main commands available:
  ━━━━━━━━━━━━━━━━━━━━━━━━
  For Issues Report At [Support](t.me/Takt_support)
  Powered by @AogiriNetwork
- ━━━━━━━━━━━━━━━━━━━━━━━━{}
+ ━━━━━━━━━━━━━━━━━━━━━━━━
+{}
 And the following:
 """.format(
     dispatcher.bot.first_name,
@@ -175,7 +176,7 @@ def send_help(chat_id, text, keyboard=None):
         chat_id=chat_id,
         text=text,
         parse_mode=ParseMode.MARKDOWN,
-        disable_web_page_preview=True,
+        disable_web_page_preview=False,
         reply_markup=keyboard,
     )
 
@@ -364,7 +365,7 @@ def yone_about_callback(update, context):
     query = update.callback_query
     if query.data == "yone_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *yone*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm Takt, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -373,7 +374,7 @@ def yone_about_callback(update, context):
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_yone's licensed under the GNU General Public License v3.0_
 
-                 \n\nIf you have any question about yone, let us know at .""",
+                 \n\nIf you have any question about , let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
