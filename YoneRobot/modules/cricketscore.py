@@ -44,9 +44,3 @@ async def _(event):
     )
 
 
-__help__ = """
-*live cricket score*
- ❍ /cs*:* Latest live scores from cricinfo
-"""
-
-__mod_name__ = "Cricket"
