@@ -107,7 +107,15 @@ Main commands available:
  For Issues Report At @Takt_support
  Powered by @AogiriNetwork
  ━━━━━━━━━━━━━━━━━━━━━━━━
-AND The following or/..`"""
+
+
+{}
+And the following:
+""".format(
+    dispatcher.bot.first_name,
+    "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
+)
+
 
 yone_IMG = "https://telegra.ph/file/7e61fe06a9c02747249c4.jpg"
 
