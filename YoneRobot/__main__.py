@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello there People,[✧](https://telegra.ph/file/581824816cb146bb8d2af.jpg)
+Hello there `{}`,[✧](https://telegra.ph/file/581824816cb146bb8d2af.jpg)
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 I am Tᴀᴋᴛ Asᴀʜɪɴᴀ金! Aᴛ Yᴏᴜʀ Sᴇʀᴠɪᴄᴇ... 
 𝕿𝖍𝖊 𝕸𝖆𝖌𝖎𝖈𝖎𝖆𝖓.. 
@@ -234,6 +234,7 @@ def start(update: Update, context: CallbackContext):
             update.effective_message.reply_text(
                 PM_START_TEXT.format(
                 escape_markdown(uptime)),
+                escape_markdown(first_name),
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
