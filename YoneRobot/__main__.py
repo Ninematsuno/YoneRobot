@@ -74,7 +74,8 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/581824816cb146bb8d2af.jpg) 」────
+────「 [Tᴀᴋᴛ Asᴀʜɪɴᴀ金](https://telegra.ph/file/581824816cb146bb8d2af.jpg) 」────
+An anime themed management bot from [Takt op destiny](https://anilist.co/anime/131565/takt-opDestiny/)
 """
 
 buttons = [
@@ -95,7 +96,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` [yone🙋‍♀️](https://telegra.ph/file/082096b101615e33eaf19.jpg) 
+`ʜɪ.. ɪ'ᴍ` [Tᴀᴋᴛ ](https://telegra.ph/file/ad56abbb7bc7fe5e6ca80.jpg) 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
 yone_IMG = "https://telegra.ph/file/7e61fe06a9c02747249c4.jpg"
