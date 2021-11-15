@@ -81,7 +81,7 @@ An anime themed management bot from [Takt op destiny](https://anilist.co/anime/1
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ ʏᴏɴᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/Yone_Robot?startgroup=true"),
+            text="➕️ ᴀᴅᴅ Takt ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/Yone_Robot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="yone_"),
@@ -96,8 +96,18 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` [Tᴀᴋᴛ ](https://telegra.ph/file/ad56abbb7bc7fe5e6ca80.jpg) 
-`ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
+Hey there! This is [Tᴀᴋᴛ Asᴀʜɪɴᴀ金](https://telegra.ph/file/ad56abbb7bc7fe5e6ca80.jpg) again
+━━━━━━━━━━━━━━━━━━━━━━━━
+Tʀᴜsᴛ ɪɴ ᴍʏ Magic Skills🗡️ ...
+━━━━━━━━━━━━━━━━━━━━━━━━
+Main commands available:
+ ❍ /start: Cʜᴇᴄᴋ Mᴇ... Iꜰ I Aᴍ Aʟɪᴠᴇ Oʀ Nᴏᴛ
+ ❍ /help: Usᴇ Tʜɪs... Iꜰ Yᴏᴜ Nᴇᴇᴅ Mᴏʀᴇ Iɴꜰᴏ Aʙᴏᴜᴛ Mᴇ!
+ ━━━━━━━━━━━━━━━━━━━━━━━━
+ For Issues Report At @Takt_support
+ Powered by @AogiriNetwork
+ ━━━━━━━━━━━━━━━━━━━━━━━━
+AND The following or/..`"""
 
 yone_IMG = "https://telegra.ph/file/7e61fe06a9c02747249c4.jpg"
 
