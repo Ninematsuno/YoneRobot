@@ -96,7 +96,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-Hey there! This is [Tᴀᴋᴛ Asᴀʜɪɴᴀ金](https://telegra.ph/file/ad56abbb7bc7fe5e6ca80.jpg) again
+Hey there! This is Tᴀᴋᴛ Asᴀʜɪɴᴀ金 again[.](https://telegra.ph/file/ad56abbb7bc7fe5e6ca80.jpg)
 ━━━━━━━━━━━━━━━━━━━━━━━━
 Tʀᴜsᴛ ɪɴ ᴍʏ Magic Skills🗡️ ...
 ━━━━━━━━━━━━━━━━━━━━━━━━
@@ -104,12 +104,9 @@ Main commands available:
  ❍ /start: Cʜᴇᴄᴋ Mᴇ... Iꜰ I Aᴍ Aʟɪᴠᴇ Oʀ Nᴏᴛ
  ❍ /help: Usᴇ Tʜɪs... Iꜰ Yᴏᴜ Nᴇᴇᴅ Mᴏʀᴇ Iɴꜰᴏ Aʙᴏᴜᴛ Mᴇ!
  ━━━━━━━━━━━━━━━━━━━━━━━━
- For Issues Report At @Takt_support
+ For Issues Report At [Support](t.me/Takt_support)
  Powered by @AogiriNetwork
- ━━━━━━━━━━━━━━━━━━━━━━━━
-
-
-{}
+ ━━━━━━━━━━━━━━━━━━━━━━━━{}
 And the following:
 """.format(
     dispatcher.bot.first_name,
